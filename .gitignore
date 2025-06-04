@@ -1,5 +1,4 @@
 mlartifacts/
-mlruns/
 # Ignore the mlartifacts and mlruns directories
 __pycache__/
 # Ignore Python bytecode cache
