@@ -51,6 +51,10 @@ jobs:
         run: |
           git config --global user.name "$GIT_USER"
           git config --global user.email "$GIT_EMAIL"
+
+          git config --global credential.helper store
+          echo "https://x-access-token:$GIT_TOKEN@github.com" > ~/.git-credentials
+
           git remote set-url origin https://x-access-token:$GIT_TOKEN@github.com/${{ github.repository }}
 
           git add mlruns/
