@@ -1,0 +1,24 @@
+digest: 4251a9c3
+name: dataset
+profile: '{"num_rows": 80000, "num_elements": 1840000}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "Customer_ID", "required":
+  true}, {"type": "string", "name": "Month", "required": true}, {"type": "double",
+  "name": "Age", "required": true}, {"type": "string", "name": "Occupation", "required":
+  true}, {"type": "double", "name": "Monthly_Inhand_Salary", "required": true}, {"type":
+  "double", "name": "Num_Bank_Accounts", "required": true}, {"type": "double", "name":
+  "Num_Credit_Card", "required": true}, {"type": "double", "name": "Interest_Rate",
+  "required": true}, {"type": "double", "name": "Num_of_Loan", "required": true},
+  {"type": "string", "name": "Type_of_Loan", "required": true}, {"type": "double",
+  "name": "Delay_from_due_date", "required": true}, {"type": "double", "name": "Num_of_Delayed_Payment",
+  "required": true}, {"type": "double", "name": "Changed_Credit_Limit", "required":
+  true}, {"type": "double", "name": "Num_Credit_Inquiries", "required": true}, {"type":
+  "string", "name": "Credit_Mix", "required": true}, {"type": "double", "name": "Outstanding_Debt",
+  "required": true}, {"type": "double", "name": "Credit_Utilization_Ratio", "required":
+  true}, {"type": "double", "name": "Credit_History_Age", "required": true}, {"type":
+  "string", "name": "Payment_of_Min_Amount", "required": true}, {"type": "double",
+  "name": "Total_EMI_per_month", "required": true}, {"type": "double", "name": "Amount_invested_monthly",
+  "required": true}, {"type": "string", "name": "Payment_Behaviour", "required": true},
+  {"type": "double", "name": "Monthly_Balance", "required": true}]}'
+source: '{"tags": {"mlflow.user": "chain", "mlflow.source.name": "c:/Users/chain/Downloads/credit_scoring/MLProject/modelling.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
