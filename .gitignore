@@ -1,1 +1,18 @@
 mlartifacts/
+mlruns/
+# Ignore the mlartifacts and mlruns directories
+__pycache__/
+# Ignore Python bytecode cache
+*.pyc
+# Ignore Python bytecode files
+*.pyo
+# Ignore optimized Python bytecode files
+*.pyd
+# Ignore Python dynamic module files
+*.pdb
+# Ignore Python debug files
+*.egg-info/
+# Ignore Python package metadata
+*.egg
+# Ignore Python egg files
+*.whl
