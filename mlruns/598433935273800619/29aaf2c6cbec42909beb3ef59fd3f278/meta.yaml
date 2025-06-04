@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/598433935273800619/29aaf2c6cbec42909beb3ef59fd3f278/artifacts
+deleted_time: 1749024204348
+end_time: 1749000864565
+entry_point_name: ''
+experiment_id: '598433935273800619'
+lifecycle_stage: deleted
+run_id: 29aaf2c6cbec42909beb3ef59fd3f278
+run_name: elastic_search_10_50
+run_uuid: 29aaf2c6cbec42909beb3ef59fd3f278
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749000854632
+status: 3
+tags: []
+user_id: chain
