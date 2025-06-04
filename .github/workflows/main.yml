@@ -37,10 +37,15 @@ jobs:
           pip install mlflow
       
       # Run as a mlflow project
-      - name: Run mlflow project
+      - name: Start MLflow tracking server
         run: |
-          mlflow run MLProject --env-manager=local 
- 
+          mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns --host 0.0.0.0 --port 5000 & 
+  # Set MLFLOW_TRACKING_URI environment variable and run mlflow project
+      - name: Run mlflow project
+        env:
+          MLFLOW_TRACKING_URI: http://localhost:5000
+        run: |
+          mlflow run MLProject --env-manager=local
       # Save models to GitHub Repository
       - name: Save mlruns to repo
         run: |
