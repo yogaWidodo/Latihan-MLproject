@@ -9,7 +9,7 @@ on:
       - master
  
 env:
-  CSV_URL: "MLproject/train_pca.csv"
+  CSV_URL: "MLProject/train_pca.csv"
  
 jobs:
   build:
